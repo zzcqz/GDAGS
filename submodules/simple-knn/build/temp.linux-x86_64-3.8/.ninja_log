@@ -1,0 +1,4 @@
+# ninja log v5
+1	11840	1743945623847042343	/root/autodl-tmp/gaussian-splatting/submodules/simple-knn/build/temp.linux-x86_64-3.8/simple_knn.o	16bf840f68f2673a
+1	26612	1743945638598598051	/root/autodl-tmp/gaussian-splatting/submodules/simple-knn/build/temp.linux-x86_64-3.8/ext.o	c259ac01b956d3f3
+1	41810	1743945653814141380	/root/autodl-tmp/gaussian-splatting/submodules/simple-knn/build/temp.linux-x86_64-3.8/spatial.o	9e1b9f3ed1079632

@@ -1,0 +1,3 @@
+# ninja log v5
+1	26997	1743945571160642279	/root/autodl-tmp/gaussian-splatting/submodules/fused-ssim/build/temp.linux-x86_64-3.8/ext.o	e93638454f707737
+0	44196	1743945588376117166	/root/autodl-tmp/gaussian-splatting/submodules/fused-ssim/build/temp.linux-x86_64-3.8/ssim.o	3d319101b23bc63a

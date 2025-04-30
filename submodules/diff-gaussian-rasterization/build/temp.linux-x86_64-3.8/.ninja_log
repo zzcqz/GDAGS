@@ -1,0 +1,12 @@
+# ninja log v5
+0	3452	1743945480951434469	/root/autodl-tmp/gaussian-splatting/submodules/diff-gaussian-rasterization/build/temp.linux-x86_64-3.8/cuda_rasterizer/forward.o	373664ff2c58d186
+1	3734	1743945481235425565	/root/autodl-tmp/gaussian-splatting/submodules/diff-gaussian-rasterization/build/temp.linux-x86_64-3.8/cuda_rasterizer/backward.o	132cb5df17bebbe6
+0	8881	1743945486379264407	/root/autodl-tmp/gaussian-splatting/submodules/diff-gaussian-rasterization/build/temp.linux-x86_64-3.8/cuda_rasterizer/rasterizer_impl.o	d49e5fbd883af7c8
+1	28081	1743945505558665683	/root/autodl-tmp/gaussian-splatting/submodules/diff-gaussian-rasterization/build/temp.linux-x86_64-3.8/ext.o	2b1ff182e3d7ca71
+1	44314	1743945521806161100	/root/autodl-tmp/gaussian-splatting/submodules/diff-gaussian-rasterization/build/temp.linux-x86_64-3.8/rasterize_points.o	1fcb14c73b6bacae
+25	3910	1743946667825749967	/root/autodl-tmp/gaussian-splatting/submodules/diff-gaussian-rasterization/build/temp.linux-x86_64-3.8/cuda_rasterizer/backward.o	132cb5df17bebbe6
+24	8939	1743946672853614393	/root/autodl-tmp/gaussian-splatting/submodules/diff-gaussian-rasterization/build/temp.linux-x86_64-3.8/cuda_rasterizer/rasterizer_impl.o	d49e5fbd883af7c8
+25	44762	1743946708672649211	/root/autodl-tmp/gaussian-splatting/submodules/diff-gaussian-rasterization/build/temp.linux-x86_64-3.8/rasterize_points.o	1fcb14c73b6bacae
+27	3594	1744288157961952888	/root/autodl-tmp/gaussian-splatting/submodules/diff-gaussian-rasterization/build/temp.linux-x86_64-3.8/cuda_rasterizer/backward.o	132cb5df17bebbe6
+26	8828	1744288163193845347	/root/autodl-tmp/gaussian-splatting/submodules/diff-gaussian-rasterization/build/temp.linux-x86_64-3.8/cuda_rasterizer/rasterizer_impl.o	d49e5fbd883af7c8
+27	42457	1744288196821154709	/root/autodl-tmp/gaussian-splatting/submodules/diff-gaussian-rasterization/build/temp.linux-x86_64-3.8/rasterize_points.o	1fcb14c73b6bacae
