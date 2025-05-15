@@ -2,6 +2,7 @@
 ## Installation
 
 ```
+git clone https://github.com/zzcqz/GDAGS.git
 pip install -r requirements.txt
 
 cd submodules
