@@ -5,9 +5,9 @@
 pip install -r requirements.txt
 
 cd submodules
-pip install ./diff-gaussian-rasterization
-pip install ./fused-ssim
-pip install ./simple-knn
+python ./diff-gaussian-rasterization/setup.py install
+python  ./fused-ssim/setup.py install
+python  ./simple-knn/setup.py install
 ```
 
 ## Dataset
