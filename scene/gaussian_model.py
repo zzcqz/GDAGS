@@ -490,11 +490,11 @@ class GaussianModel:
         grads_abs[grads_abs.isnan()] = 0.0
 
         consistency = (grads + 1e-8) / (grads_abs + 1e-8)
-        weight = 0.5 + 25 * torch.pow(1 - consistency,15)
+        weight = 0.8 + 25 * torch.pow(1 - consistency,15)
 
         self.tmp_radii = radii
-        self.densify_and_clone(grads, 0.0002, extent)
-        # self.densify_and_clone(grads / (weight + 0.3), 0.0002, extent)
+        # self.densify_and_clone(grads, 0.0002, extent)
+        self.densify_and_clone(grads / weight, 0.0002, extent)
         self.densify_and_split(grads * weight, 0.0002, extent)
 
         prune_mask = (self.get_opacity < min_opacity).squeeze()
