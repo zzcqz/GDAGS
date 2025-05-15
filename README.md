@@ -1,4 +1,4 @@
-# DAGS
+# GDAGS
 ## Installation
 
 ```
@@ -17,7 +17,7 @@ python  ./simple-knn/setup.py install
 Please download the Mip-NeRF 360 dataset processed by colmap from [Mip-NeRF 360](https://jonbarron.info/mipnerf360/), and after unzipping "Dataset Pt. 1" and "Dataset Pt. 2", combine the scenes. Finally, the current directory should contain the following folders:
 
 ```
-DAGS
+GDAGS
 |---data
     |---Mip-NeRF360
         |---bicycle
@@ -43,7 +43,7 @@ Tanks and Temples is divided into three parts, comprising a total of 21 scenes: 
 
 Please download the "image set" of 'Train' and 'Truck' scenes from the Tanks and Temples dataset from [Tanks and Temples](https://www.tanksandtemples.org/download/).
 ```
-DAGS
+GDAGS
 |---data
     |---Tanks_Temples
         |---Train
@@ -61,7 +61,7 @@ DAGS
 ```
 ### Deep Blending Dataset
 ```
-DAGS
+GDAGS
 |---data
     |---Deep_Blending
         |---drjohnson
