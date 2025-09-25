@@ -17,19 +17,17 @@ DATASETS=(
 for data in "${DATASETS[@]}"; do
     echo "========== Processing dataset: ${data} =========="
     
-    # 训练阶段
     echo ">>> Running training..."
     python ./train.py \
         -s "${data}" \
         -m "${data}/output" \
+        -r 4 \
         --eval
 
-    # 渲染阶段
     echo ">>> Running rendering..."
     python ./render.py \
         -m "${data}/output"
 
-    # 指标计算
     echo ">>> Running metrics..."
     python ./metrics.py \
         -m "${data}/output"
