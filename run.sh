@@ -1,9 +1,9 @@
 DATASETS=(
-    "./data/Deep_Blending/drjohnson"
+    # "./data/Deep_Blending/drjohnson"
     # "./data/Deep_Blending/playroom"
     # "./data/Tanks_Temples/Train"
     # "./data/Tanks_Temples/Truck"
-    # "./data/Mip-NeRF360/bicycle"
+    "./data/Mip-NeRF360/bicycle"
     # "./data/Mip-NeRF360/bonsai"
     # "./data/Mip-NeRF360/counter"
     # "./data/Mip-NeRF360/flowers"
