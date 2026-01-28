@@ -1,10 +1,28 @@
-# GDAGS
+- <p align="center">
+  <h1 align="center">Gradient-Direction-Aware Density Control for 3D Gaussian Splatting (ICLR 2026)</h1>
+    <p align="center">
+        <a href="https://github.com/zzcqz">Zheng Zhou</a>
+      ·
+      <a >Yu-Jie Xiong</a>
+      ·
+      <a href="https://github.com/Jia-Chen-Zhang">Jia-Chen Zhang</a>
+      ·
+      <a >Chun-Ming Xia</a>
+      ·
+      <a >Xihe Qiu</a>
+      ·
+      <a >Hongjian Zhan</a>
+    </p>
+    <h3 align="center"> <a href="https://arxiv.org/abs/2508.09239">arXiv</a> | <a href="https://zzcqz.github.io/GDAGS.github.io/">Project Page</a> | <a href="https://github.com/zzcqz/GDAGS">Code</a> </h3>
+    <div align="center"></div>
+  
+  </p>
+
 ## Updates
 [2026-01-26] GDAGS has been accepted to ICLR 2026!
 ## Installation
 
 ```
-
 cd submodules/diff-gaussian-rasterization
 pip install -e .
 cd submodules/fused-ssim
