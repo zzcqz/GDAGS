@@ -17,7 +17,11 @@
     <div align="center"></div>
   
   </p>
-
+  <p align="center">
+    <a href="">
+      <img src="./video/attract.png" alt="Logo" width="100%">
+    </a>
+  </p>  
 ## Updates
 [2026-01-26] GDAGS has been accepted to ICLR 2026!
 ## Installation
