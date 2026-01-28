@@ -125,7 +125,7 @@ If you find this repo helpful, please cite our paper.
 ```
 @article{zhou2025gradient,
   title={Gradient-Direction-Aware Density Control for 3D Gaussian Splatting},
-  author={Zhou, Zheng and Xiong, Yu-Jie and Xia, Chun-Ming and Zhang, Jia-Chen and Zhan, Hong-Jian},
+  author={Zhou, Zheng and Xiong, Yu-Jie and Zhang, Jia-Chen and Xia, Chun-Ming and Qiu, Xihe and Zhan, Hongjian},
   journal={arXiv preprint arXiv:2508.09239},
   year={2025}
 }
