@@ -495,6 +495,7 @@ class GaussianModel:
         self.tmp_radii = radii
         # self.densify_and_clone(grads, 0.0002, extent)
         self.densify_and_clone(grads / weight, 0.0002, extent)
+        # self.densify_and_split(grads, 0.0002, extent)
         self.densify_and_split(grads * weight, 0.0002, extent)
 
         prune_mask = (self.get_opacity < min_opacity).squeeze()
@@ -513,3 +514,4 @@ class GaussianModel:
         self.xyz_gradient_accum_abs[update_filter] += torch.norm(viewspace_point_tensor.grad[update_filter, 2:], dim=-1, keepdim=True)
         self.dir[update_filter] += viewspace_point_tensor.grad[update_filter,:2]
         self.denom[update_filter] += 1
+
