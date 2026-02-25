@@ -1,9 +1,9 @@
 DATASETS=(
-    # "./data/Deep_Blending/drjohnson"
-    # "./data/Deep_Blending/playroom"
-    # "./data/Tanks_Temples/Train"
-    # "./data/Tanks_Temples/Truck"
-    "./data/Mip-NeRF360/bicycle"
+    "./data/Deep_Blending/drjohnson"
+    "./data/Deep_Blending/playroom"
+    "./data/Tanks_Temples/Train"
+    "./data/Tanks_Temples/Truck"
+    # "./data/Mip-NeRF360/bicycle"
     # "./data/Mip-NeRF360/bonsai"
     # "./data/Mip-NeRF360/counter"
     # "./data/Mip-NeRF360/flowers"
@@ -21,7 +21,7 @@ for data in "${DATASETS[@]}"; do
     python ./train.py \
         -s "${data}" \
         -m "${data}/output" \
-        -r 4 \
+        # -r 4 \
         --eval
 
     echo ">>> Running rendering..."
