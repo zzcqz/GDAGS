@@ -122,7 +122,7 @@ Since the rendering process and point cloud storage format of our method are ide
 
 ## Acknowledgements
 
-This project is built upon [3DGS](https://github.com/graphdeco-inria/gaussian-splatting). Please follow the license of 3DGS. We thank all the authors for their great work and repos. 
+This project is built upon [3DGS](https://github.com/graphdeco-inria/gaussian-splatting) and [AbsGS](https://github.com/TY424/AbsGS). Please follow the license of 3DGS. We thank all the authors for their great work and repos. 
 
 ## Citation
 If you find this repo helpful, please cite our paper.
@@ -132,5 +132,15 @@ If you find this repo helpful, please cite our paper.
   author={Zhou, Zheng and Xiong, Yu-Jie and Zhang, Jia-Chen and Xia, Chun-Ming and Qiu, Xihe and Zhan, Hongjian},
   journal={arXiv preprint arXiv:2508.09239},
   year={2025}
+}
+```
+```
+@inproceedings{
+zhou2026gradientdirectionaware,
+title={Gradient-Direction-Aware Density Control for 3D Gaussian Splatting},
+author={Zheng Zhou and Yu-Jie Xiong and Jia-Chen Zhang and Chun-Ming Xia and Xihe Qiu and Hongjian Zhan},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=6qDxK4Gz7F}
 }
 ```
